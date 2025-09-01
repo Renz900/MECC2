@@ -1,0 +1,50 @@
+
+.payments-container {
+  padding: 20px;
+}
+
+.payments-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color:white;
+}
+
+.payments-table th,
+.payments-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #000000;
+}
+
+.payments-table th {
+  background-color: #ffffff;
+}
+
+.payments-table tr:hover {
+  background-color: #000000;
+}
+
+buttons{
+  display: 'inline-flex important'
+}
+
+.button button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button button.active {
+  background-color: blue; /* Color when active */
+}
+
+.button button:hover {
+  background-color: darkgreen;
+}
+
+

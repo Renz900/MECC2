@@ -1,0 +1,113 @@
+/* General Layout */
+.ledger-container {
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+.ledger-left {
+  position: fixed;
+  left: 10px;
+  top: 100px;
+  bottom: 0;
+  width: 99%;
+}
+
+.ledger-left h1 {
+  font-size: 30px;
+  color: #000000;
+  margin-bottom: 54px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* Buttons */
+.ledger-left button {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  background-color: #52ceff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.ledger-left button:hover {
+  background-color: #3693f6;
+}
+
+.ledger-left button:active {
+  background-color: #00ffe1;
+}
+
+/* Back Button */
+.ledger-left .back-button {
+  background-color: #99a4ae;
+}
+
+.ledger-left .back-button:hover {
+  background-color: #b8cad7;
+}
+
+/* Table Styles */
+.ledger-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 14px;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  max-height: 460px;
+  box-shadow: 0px 0px 15px 0px rgb(154, 154, 154);
+  border-radius: 5px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ledger-table th,
+.ledger-table td {
+  padding: 10px;
+}
+
+.ledger-table th {
+  background-color: #bababa;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 2px solid #000000;
+}
+
+/* Right Section */
+.ledger-right {
+  flex: 1;
+  margin-left: 10px;
+  padding: 5px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .ledger-container {
+    flex-direction: column;
+  }
+
+  .ledger-left {
+    position: static;
+    width: 100%;
+    height: auto;
+    border-right: none;
+  }
+
+  .ledger-right {
+    margin-left: 0;
+    width: 100%;
+  }
+}

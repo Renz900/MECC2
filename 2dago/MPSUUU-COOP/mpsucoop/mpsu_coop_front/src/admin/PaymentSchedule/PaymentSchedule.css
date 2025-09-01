@@ -1,0 +1,206 @@
+.berts-container {
+  margin-top: 20px;
+}
+
+.berts-heading {
+  width: 98%;
+  margin-top: -25px;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.berts-search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.berts-search-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+}
+
+.berts-search-input {
+  padding: 7px 40px 10px 10px;
+  font-size: 16px;
+  width: 270px;
+  margin-left: 980px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.berts-summary-table-wrapper {
+  max-height: 410px;
+  overflow-y: auto;
+  box-shadow: 0px 0px 15px 0px rgb(154, 154, 154);
+  margin-top: -30px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.berts-summary-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.berts-summary-header {
+  position: sticky;
+  top: -5px;
+  background-color: #fff;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.berts-summary-row {
+  cursor: pointer;
+}
+
+.berts-summary-cell {
+  color: blue;
+}
+
+.berts-account-details {
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.berts-account-title {
+  color: black;
+  font-size: 20px;
+  margin-top: -50px;
+}
+
+.berts-account-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.berts-account-label {
+  padding: 5px;
+  border: 0px;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(218, 218, 218, 0.68);
+}
+
+.berts-account-value {
+  padding: 5px;
+  border: 0px;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(218, 218, 218, 0.68);
+  vertical-align: bottom;
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.berts-paid-message {
+  padding: 5px;
+  border: 0px;
+  font-weight: bold;
+  font-size: 18px;
+  color: green;
+  text-align: center;
+}
+
+.berts-balance-value {
+  padding: 5px;
+  border: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.berts-button-group {
+  display: inline-flex;
+  margin-top: 20px;
+}
+
+.berts-button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+}
+
+.berts-active-button {
+  color: rgb(4, 202, 93);
+  text-decoration: underline;
+}
+
+.berts-button:hover {
+  background-color: transparent;
+  color: inherit; 
+  text-decoration: none; 
+}
+
+.berts-active-button:hover {
+  color: rgb(4, 202, 93); 
+  text-decoration: underline; 
+  background-color: transparent; 
+  cursor: default; 
+}
+
+.berts-dropdown {
+  margin-left: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.berts-schedule-table-wrapper {
+  max-height: 365px;
+  overflow-y: auto;
+  box-shadow: 0px 0px 15px 0px rgb(154, 154, 154);
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.berts-schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 16px;
+}
+
+.berts-schedule-header {
+  color: black;
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+}
+
+.paid {
+  color: green;
+}
+
+.ongoing {
+  color: red;
+}
+
+
+.berts-pay-now-button {
+  background-color: green;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.berts-disabled-button {
+  background-color: gray !important;
+  cursor: not-allowed;
+  color: white;
+}
+
